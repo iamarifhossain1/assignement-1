@@ -115,7 +115,7 @@ main {
 }
 
 .dev-heading {
-  font-size: 32px;
+  font-size: 42px;
   font-weight: 900;
   text-align: center;
 }
@@ -172,3 +172,84 @@ font-size: 18px;
 text-align: center;
 color: #757575;
 }
+
+.current-target{
+  margin: 150px auto;
+}
+
+.current-target-heading{
+text-align: center;
+font-size: 42px;
+font-weight: 900;
+}
+
+.current-target-description {
+  font-size: 18px;
+  text-align: center;
+  color: #757575;
+}
+
+.current-flex {
+margin: 100px;
+}
+
+.flex-container {
+display: flex;
+gap: 30px;
+justify-content: space-between;
+align-items: center;
+}
+
+.flex-html {
+background-color: #FFF6F4;
+padding: 30px 30px;
+border-radius: 10px;
+}
+
+.html-heading {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 36px;
+}
+
+.html-description {
+  font-size: 18px;
+  line-height: 26px;
+  color: #757575;
+}
+
+.flex-css {
+  background-color: #F2F6FE;
+  padding: 30px 30px;
+  border-radius: 10px;
+  }
+  
+  .css-heading {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 36px;
+  }
+  
+  .css-description {
+    font-size: 18px;
+    line-height: 26px;
+    color: #757575;
+  }
+
+  .flex-js {
+    background-color: #FFFDF2;
+    padding: 30px 30px;
+    border-radius: 10px;
+    }
+    
+    .js-heading {
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 36px;
+    }
+    
+    .js-description {
+      font-size: 18px;
+      line-height: 26px;
+      color: #757575;
+    }
