@@ -38,7 +38,6 @@ nav ul a {
     background-color: #fff;
     border: 1px solid black;
     padding: 14px 10px;
-   
     border-radius: 5px;
     cursor: pointer;
 }
@@ -78,4 +77,31 @@ nav ul a {
   color: #0D1321;
   text-align: center;
 
+}
+
+.contact {
+
+  width: 220px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 15px 16px;
+  transition: 1s ease all;
+
+}
+
+.contact:hover {
+
+  width: 220px;
+  background-color: lightgreen;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 16px;
 }
