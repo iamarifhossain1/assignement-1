@@ -5,18 +5,15 @@
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-  }
+}
 
 nav {
-
     margin: 50px 150px;
 }
 
   nav ul {
-
     display: flex;
     justify-content: space-between;
-
   }
 
 nav ul li {
@@ -25,7 +22,6 @@ nav ul li {
 } 
 
 nav ul a {
-
     text-decoration: none;
     color: #0D1321;
     font-size: 28px;
@@ -33,29 +29,26 @@ nav ul a {
 }
 
 .btn-container {
-
     width: 200px;
     background-color: #fff;
     border: 1px solid black;
     padding: 14px 10px;
     border-radius: 5px;
     cursor: pointer;
+    transition: 1s ease all;
 }
 
 .btn-container a {
-
   text-decoration: none;
   font-size: 17px;
   font-weight: 600;
 }
 
 .header-bg {
-    background-image: url("assets/Hero-bg.png");
-    
+    background-image: url("assets/Hero-bg.png");   
 }
 
 .header-container {
-
   width: 998px;
   margin: 0px auto;
   display: flex;
@@ -66,24 +59,20 @@ nav ul a {
 }
 
 .header-heading {
-
   font-size: 48px;
   text-align: center;
 }
 
 .header-description {
-
   font-size: 16px;
   color: #0D1321;
   text-align: center;
-
+  margin-top: -20px;
 }
 
 .contact {
-
   width: 220px;
   background-color: #000;
-  color: #fff;
   border-radius: 5px;
   border: none;
   font-size: 20px;
@@ -91,11 +80,14 @@ nav ul a {
   cursor: pointer;
   padding: 15px 16px;
   transition: 1s ease all;
+}
 
+.contact a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .contact:hover {
-
   width: 220px;
   background-color: lightgreen;
   color: #fff;
@@ -104,4 +96,55 @@ nav ul a {
   font-size: 20px;
   font-weight: 600;
   padding: 15px 16px;
+}
+
+main {
+  width: 1140px; 
+  background-color: #fff;
+  margin: 100px auto;
+}
+
+.dev {
+
+  width: 946px;
+}
+
+.dev-container {
+  background-color: #FAFAFB;
+  border-radius: 10px;
+  padding: 100px 80px;
+}
+
+.dev-heading {
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.dev-description {
+  font-size: 18px;
+  color: #757575;
+  text-align: center;
+}
+
+.dev-flex {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  background-image: linear-gradient(90deg, white, rgb(252, 249, 249));
+  padding: 38px;
+  justify-content: space-between;
+}
+
+.dev-flex-heading {
+  font-size: 34px;
+  font-weight: bold;
+  color: #565A64;
+  line-height: 36px;
+}
+
+.dev-flex-description{
+  font-size: 16px;
+  color: #6A6D76;
+  line-height: 26px;
 }
